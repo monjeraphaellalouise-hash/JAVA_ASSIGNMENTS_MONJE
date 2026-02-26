@@ -4,7 +4,7 @@ public class SnackAttack {
 
     public static void main(String[] args) {
 
-        // Create ArrayList (Lesson 12: Dynamic Arrays)
+        // Create ArrayList 
         ArrayList<String> snacks = new ArrayList<String>();
 
         snacks.add("Apples");
@@ -12,13 +12,13 @@ public class SnackAttack {
         snacks.add("Pretzels");
         snacks.add("Yogurt");
 
-        // Print original list
+     
         System.out.println(snacks);
 
-        // Loop through the list (Lesson 13: for loop)
+        // Loop through the list 
         for (int i = 0; i < snacks.size(); i++) {
 
-            // Debug print (Lesson 15: trace program flow)
+            // Debug print 
             System.out.println("Checking index " + i + ": " + snacks.get(i));
 
             // Check if snack starts with 'A'
@@ -28,11 +28,11 @@ public class SnackAttack {
 
                 snacks.remove(i);
 
-                i--; // Step back to avoid skipping elements
+                i--; 
             }
         }
 
-        // Print final result
+        //results
         System.out.println(snacks);
     }
 }
